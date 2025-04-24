@@ -34,7 +34,7 @@ class ContainerOrchestrator
                 :securityContext => {
                   :allowPrivilegeEscalation => false,
                   :privileged               => false,
-                  :runAsNonRoot             => true,
+                  :runAsNonRoot             => false,
                   :capabilities             => {
                     :drop => ["ALL"]
                   }
